@@ -1,0 +1,57 @@
+/* styles/Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./public/hotel2.avif'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-links a {
+    text-decoration: none;
+    color: #1976d2;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* styles/Login.css */
+.login-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(199, 223, 228, 0.2); /* White with 20% opacity */
+    backdrop-filter: blur(10px); /* Adds a glass effect */
+    width: 100%;
+    max-width: 400px;
+}
